@@ -30,6 +30,11 @@ public class AmiyaBurst : MonoBehaviour
         }
     }
     
+    private void resetInput()
+    {
+        amiya.resestInput();
+    }
+    
     private void OnDrawGizmos()
     {
         Gizmos.DrawWireSphere(AttackHitBox.position, AtackRadius);

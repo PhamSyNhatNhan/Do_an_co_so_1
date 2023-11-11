@@ -79,6 +79,11 @@ public class Windfall : SubWeapon
 
     private void Drop()
     {
+        echo.DisableTrail();
+        isBurst = false;
+        AttackNumber = 1;
+        deBurstChange();
+        
         base.Drop();
         
         amt.SetBool("IsPickUp", base.IsPickUp); 

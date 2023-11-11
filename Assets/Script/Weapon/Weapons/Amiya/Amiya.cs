@@ -9,8 +9,9 @@ public class Animya : SubWeapon
     private Animator amt;
     [SerializeField] private float attackDamge;
     [SerializeField] private float knockBack;
-    private NewBehaviourScript pc; 
-    
+    private NewBehaviourScript pc;
+
+    private bool canAttack = true;
     private bool GotInput; 
     [SerializeField] private bool IsAttack; 
     private int AttackNumber; 
@@ -26,9 +27,10 @@ public class Animya : SubWeapon
     [SerializeField] private float AtackRadius1; 
     [SerializeField] private Transform AttackHitBox2;
     [SerializeField] private float AtackRadius2;
-    
-    [Header("Enchance")]
+
+    [Header("Enchance")] 
     [SerializeField] private int maxStack;
+    private bool canEnchance = true;
     private int curStack = 0;
     private bool isEnchanceAttack = false;
     [SerializeField] private GameObject enchanceEffect;
@@ -42,6 +44,7 @@ public class Animya : SubWeapon
 
     [Header("Burst")] 
     [SerializeField] private float burstBonusDamge;
+    private bool canBurst = true;
     private bool isBurst = false;
     [SerializeField] private float burstCD;
     [SerializeField] private float burstTime;
@@ -54,7 +57,8 @@ public class Animya : SubWeapon
 
     [Header("Skill")]
     [SerializeField] private float skillCD;
-    private bool isSkill;
+    private bool canSkill = true;
+    private bool isSkill = false;
     private bool isSkillBurstFirst = false;
     private bool isSkillBurstSecond = false;
     private float lastSkillTime = -100.0f;
@@ -91,6 +95,7 @@ public class Animya : SubWeapon
         subBurst();
         BurstMode();
         subSkillBurst();
+        
     }
     
     private void PickUp(Transform tf)
@@ -102,6 +107,11 @@ public class Animya : SubWeapon
 
     private void Drop()
     {
+        echo.DisableTrail();
+        isBurst = false;
+        AttackNumber = 1;
+        deBurstChange();
+        
         base.Drop();
         
         amt.SetBool("IsPickUp", base.IsPickUp); 
@@ -123,15 +133,19 @@ public class Animya : SubWeapon
     
     private void CheckCombatInput()
     {
-        if(Input.GetMouseButtonDown(0))
+        if(Input.GetMouseButtonDown(0) && canAttack && !IsAttack)
         {
+            removeInput();
+            
             GotInput = true;
             LastInputTime = Time.time;
             isEnchanceAttack = false;
         }
 
-        if (Input.GetMouseButtonUp(1) && curStack > 0 && !isEnchanceAttack)
+        if (Input.GetMouseButtonDown(1) && curStack > 0 && !isEnchanceAttack && canEnchance)
         {
+            removeInput();
+            
             curStack -= 1;
             LastInputTime = Time.time;
             isEnchanceAttack = true;
@@ -140,8 +154,10 @@ public class Animya : SubWeapon
             StackVisible();
         }
         
-        if (Input.GetKey(KeyCode.Q) && Time.time >= (lastBurstTime + burstCD) && isBurst == false)
+        if (Input.GetKeyDown(KeyCode.Q) && Time.time >= (lastBurstTime + burstCD) && isBurst == false && canBurst)
         {
+            removeInput();
+            
             isBurst = true;
             lastBurstTime = Time.time;
             echo.EnableTrail();
@@ -151,7 +167,7 @@ public class Animya : SubWeapon
             lastStack = Time.time;
         }
         
-        if (Input.GetKey(KeyCode.E) && !isSkill)
+        if (Input.GetKeyDown(KeyCode.E) && !isSkill && canSkill)
         {
             Skill();
         }
@@ -298,6 +314,7 @@ public class Animya : SubWeapon
         }
     }
     
+    
     private void subEnchaneAttack()
     {
         if (isEnchanceAttackActive)
@@ -363,6 +380,8 @@ public class Animya : SubWeapon
         amt.SetBool("Attack_2", false);
         amt.SetBool("IsAttack", false);
         GameObject.Find("Player").GetComponent<Player_Weapion_Manager>().SubAttackDisable();
+        
+        resestInput();
     }
     
     private void ResetAttack()
@@ -454,6 +473,7 @@ public class Animya : SubWeapon
             curStack = maxStack;
         amt.SetBool("IsBurst", false);
         isSkillBurstFirst = false;
+        isSkillBurstSecond = false;
         lastSkillTime = -100f;
     }
 
@@ -481,6 +501,7 @@ public class Animya : SubWeapon
             isSkill = true;
             lastSkillTime = Time.time;
             amt.SetBool("IsSkill1", isSkill);
+            removeInput();
             
             curStack += 1;
             if (curStack > maxStack)
@@ -504,6 +525,7 @@ public class Animya : SubWeapon
         {
             if (isSkillBurstFirst && !isSkillBurstSecond && Time.time > lastSkill1BTime + skill1BCD)
             {
+                removeInput();
                 lastSkill1BTime = Time.time;
                 isSkill = true;
                 amt.SetBool("IsSkill1B", true);
@@ -531,6 +553,7 @@ public class Animya : SubWeapon
             }
             else if(!isSkillBurstFirst && isSkillBurstSecond && Time.time < lastSkill1BTime + skillBusrtChange)
             {
+                removeInput();
                 lastSkill1BTime = Time.time;
                 isSkill = true;
                 amt.SetBool("IsSkill2B", true);
@@ -557,6 +580,7 @@ public class Animya : SubWeapon
             }
             else if(!isSkillBurstFirst && !isSkillBurstSecond && Time.time < lastSkill1BTime + skillBusrtChange)
             {
+                removeInput();
                 lastSkill1BTime = Time.time;
                 isSkill = true;
                 amt.SetBool("IsSkill3B", true);
@@ -617,6 +641,22 @@ public class Animya : SubWeapon
         {
             GameObject.Find("Player").GetComponent<Player_Weapion_Manager>().SubAttackEnable();
         }
+    }
+
+    public void resestInput()
+    {
+        canAttack = true;
+        canEnchance = true;
+        canSkill = true;
+        canBurst = true;
+    }
+
+    private void removeInput()
+    {
+        canAttack = false;
+        canEnchance = false;
+        canSkill = false;
+        canBurst = false;
     }
 
     public float GetAttackDamage()

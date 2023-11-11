@@ -36,6 +36,11 @@ public class AmiyaCut : MonoBehaviour
             Colider.transform.SendMessage("Damage", AttackDetail);
         }
     }
+
+    private void resetInput()
+    {
+        amiya.resestInput();
+    }
     
     private void OnDrawGizmos()
     {
