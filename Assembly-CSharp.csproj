@@ -46,6 +46,7 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Script\Player\Player_Weapon_Manager.cs" />
+     <Compile Include="Assets\Script\Object\Fadeout.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextEventHandler.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexShakeA.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\EnvMapAnimator.cs" />
@@ -55,8 +56,10 @@
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\SimpleScript.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark04.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ChatController.cs" />
+     <Compile Include="Assets\Script\Weapon\Weapons\Amiya\Amiya.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_DigitValidator.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_FrameRateCounter.cs" />
+     <Compile Include="Assets\Script\Weapon\Weapons\Windfall\Windfall.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextMeshSpawner.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark02.cs" />
@@ -64,19 +67,23 @@
      <Compile Include="Assets\Script\Object\DisableObject.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\CameraController.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark03.cs" />
+     <Compile Include="Assets\Script\Weapon\Weapons\MagicStaff\Projectile.cs" />
      <Compile Include="Assets\Script\UI\MainMenu.cs" />
+     <Compile Include="Assets\Script\Weapon\Weapons\MagicStaff\MagicStaff.cs" />
      <Compile Include="Assets\Script\Manager\LifeManager.cs" />
      <Compile Include="Assets\Script\Player\Player_Stat.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_ExampleScript_01.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMPro_InstructionOverlay.cs" />
+     <Compile Include="Assets\Script\Weapon\Weapons\Amiya\AmiyaCut.cs" />
      <Compile Include="Assets\Script\Weapon\SubWeapon.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexShakeB.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\DropdownSample.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexColorCycler.cs" />
-     <Compile Include="Assets\Script\Weapon\Weapons\Sword_1.cs" />
      <Compile Include="Assets\Script\Enemy\Dummy\Dummy.cs" />
+     <Compile Include="Assets\Script\Weapon\Weapons\Amiya\AmiyaBurst.cs" />
      <Compile Include="Assets\Script\Player\Old\PlayerStat.cs" />
      <Compile Include="Assets\Script\Player\Old\Player_Controller.cs" />
+     <Compile Include="Assets\Script\Weapon\Weapons\Sword_1\Sword_1.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ObjectSpin.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_PhoneNumberValidator.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexJitter.cs" />
@@ -85,7 +92,9 @@
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextEventCheck.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_UiFrameRateCounter.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexZoom.cs" />
+     <Compile Include="Assets\Script\Object\NotFollow.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextSelector_B.cs" />
+     <Compile Include="Assets\Script\Player\Echo.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\SkewTextExample.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\WarpTextExample.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextMeshProFloatingText.cs" />
@@ -93,6 +102,7 @@
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ShaderPropAnimator.cs" />
      <Compile Include="Assets\Script\Object\DestroyAnimation.cs" />
      <Compile Include="Assets\Script\UI\UiAnimation.cs" />
+     <Compile Include="Assets\Script\Weapon\Weapons\Fish\Fish.cs" />
      <Compile Include="Assets\Script\Player\Old\Player_Combat.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextInfoDebugTool.cs" />
      <Folder Include="Assets" />
@@ -104,6 +114,7 @@
      <Folder Include="Assets\Sprites\Architecture _ Environment\Dream" />
      <Folder Include="Assets\Sprites\Enemy" />
      <Folder Include="Assets\TextMesh Pro\Examples &amp; Extras\Sprites" />
+     <Folder Include="Assets\Animation\Weapon\Amiya" />
      <Folder Include="Assets\Sprites\Architecture _ Environment\Area specfic architecture\Royal Waterways\Isma_s Grove" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
      <Folder Include="Assets\TextMesh Pro\Sprites" />
@@ -125,6 +136,7 @@
      <Folder Include="Assets\Sprites\Architecture _ Environment\Area specfic architecture\Fungal Wastes" />
      <Folder Include="Assets\Sprites\Architecture _ Environment\Area specfic architecture\Forgotten Crossroads\Temple of the Black Egg" />
      <None Include="Assets\TextMesh Pro\Examples &amp; Extras\Fonts\Oswald-Bold - OFL.txt" />
+     <Folder Include="Assets\Sprites\Weapons\Fish" />
      <Folder Include="Assets\Sprites\Architecture _ Environment\Area specfic architecture\Godhome" />
      <Folder Include="Assets\Sprites\Architecture _ Environment\Area specfic architecture\Royal Waterways\Junk Pit" />
      <Folder Include="Assets\Sprites\UI" />
@@ -135,16 +147,19 @@
      <Folder Include="Assets\Sprites\Architecture _ Environment\Fabric" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro_Mobile.cginc" />
      <Folder Include="Assets\Script" />
+     <Folder Include="Assets\Animation\Weapon\Windfall" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF SSD.shader" />
      <Folder Include="Assets\Prefabs\Env\text" />
      <Folder Include="Assets\TextMesh Pro\Resources" />
      <Folder Include="Assets\Sprites\Architecture _ Environment\Area specfic architecture" />
      <Folder Include="Assets\Script\UI" />
+     <Folder Include="Assets\Script\Weapon\Weapons\Fish" />
      <Folder Include="Assets\Sprites\Architecture _ Environment\Area specfic architecture\City of Tears\Soul Sanctum" />
      <Folder Include="Assets\Sprites\Architecture _ Environment\Area specfic architecture\Crystal Peak" />
      <Folder Include="Assets\Sprites\Architecture _ Environment\Area specfic architecture\Greenpath" />
      <Folder Include="Assets\Materials" />
      <Folder Include="Assets\Script\Enemy\Dummy" />
+     <Folder Include="Assets\Prefabs\Weapon\Amiya" />
      <None Include="Assets\Script\Weapon\Readme.txt" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader" />
      <Folder Include="Assets\Prefabs\Env" />
@@ -152,6 +167,7 @@
      <Folder Include="Assets\Sprites\Architecture _ Environment\Waterfalls" />
      <Folder Include="Assets\Animation\Weapon\Sword_1" />
      <Folder Include="Assets\Sprites\Architecture _ Environment\Area specfic architecture\Forgotten Crossroads\Ancestral Mound" />
+     <Folder Include="Assets\Script\Weapon\Weapons\Windfall" />
      <Folder Include="Assets\Sprites\Architecture _ Environment\Area specfic architecture\Colosseum" />
      <Folder Include="Assets\TextMesh Pro" />
      <Folder Include="Assets\Sprites\Architecture _ Environment\Hot Spring" />
@@ -167,8 +183,11 @@
      <Folder Include="Assets\Sprites\Architecture _ Environment\Area specfic architecture\Deepnest\Distant Village" />
      <Folder Include="Assets\Sprites\Architecture _ Environment\Area specfic architecture\Deepnest\Weaver_s Den" />
      <Folder Include="Assets\Sprites\Architecture _ Environment\Area specfic architecture\Fog Canyon" />
+     <Folder Include="Assets\Sprites\Weapons\Animya" />
      <Folder Include="Assets\Sprites\Enemy\Enemy_1" />
      <Folder Include="Assets\Script\Player\Old" />
+     <Folder Include="Assets\Sprites\Weapons\Sword_1" />
+     <Folder Include="Assets\Script\Weapon\Weapons\Sword_1" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface.shader" />
      <Folder Include="Assets\Sprites" />
      <None Include="Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
@@ -210,6 +229,7 @@
      <Folder Include="Assets\Sprites\Architecture _ Environment\Area specfic architecture\Godhome\Hall of Gods" />
      <Folder Include="Assets\Script\Enemy" />
      <Folder Include="Assets\Script\Object" />
+     <Folder Include="Assets\Animation\Weapon\Fish" />
      <Folder Include="Assets\Animation\Effect" />
      <Folder Include="Assets\Sprites\Architecture _ Environment\Area specfic architecture\Abyss" />
      <Folder Include="Assets\Animation\Character_animation" />
@@ -217,17 +237,23 @@
      <Folder Include="Assets\SpritesShape" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader" />
      <Folder Include="Assets\Sprites\Architecture _ Environment\Area specfic architecture\Forgotten Crossroads" />
+     <Folder Include="Assets\Script\Weapon\Weapons\MagicStaff" />
      <Folder Include="Assets\Sprites\Architecture _ Environment\Area specfic architecture\Dirtmouth" />
      <Folder Include="Assets\Sprites\Architecture _ Environment\Area specfic architecture\Godhome\Land of Storms _ Tuning area" />
      <Folder Include="Assets\Animation\Enemy" />
+     <Folder Include="Assets\Script\Weapon\Weapons\Amiya" />
      <Folder Include="Assets\Sprites\Architecture _ Environment\Area specfic architecture\White Palace" />
+     <Folder Include="Assets\Sprites\Weapons\MagicStaff" />
      <Folder Include="Assets\Sprites\Architecture _ Environment\Area specfic architecture\Howling Cliffs" />
      <Folder Include="Assets\Sprites\Architecture _ Environment\Area specfic architecture\City of Tears\Tower of Love" />
      <Folder Include="Assets\Sprites\Architecture _ Environment\Area specfic architecture\Resting Grounds" />
      <Folder Include="Assets\Sprites\Architecture _ Environment" />
+     <Folder Include="Assets\Sprites\Weapons\Windfall" />
      <Folder Include="Assets\Sprites\Architecture _ Environment\Area specfic architecture\Deepnest" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF Overlay.shader" />
+     <Folder Include="Assets\Prefabs\Weapon\Windfall" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Mobile.shader" />
+     <Folder Include="Assets\Animation\Weapon\MagicStaff" />
      <Folder Include="Assets\Sprites\Architecture _ Environment\Soul Totems" />
      <None Include="Assets\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />
      <Folder Include="Assets\TextMesh Pro\Examples &amp; Extras\Textures" />
@@ -235,6 +261,7 @@
      <Folder Include="Assets\Sprites\Enemy\Dummy_1" />
      <Folder Include="Assets\Sprites\Character" />
      <Folder Include="Assets\TextMesh Pro\Documentation" />
+     <Folder Include="Assets\Prefabs\Weapon" />
      <Folder Include="Assets\TextMesh Pro\Examples &amp; Extras" />
      <Folder Include="Assets\Script\Weapon" />
      <Folder Include="Assets\Sprites\Architecture _ Environment\Tram _ Stagways" />
@@ -246,6 +273,7 @@
      <Folder Include="Assets\Prefabs\Player" />
      <None Include="Assets\TextMesh Pro\Sprites\EmojiOne.json" />
      <Folder Include="Assets\Scenes" />
+     <Folder Include="Assets\Sprites\Weapons\sword" />
      <Folder Include="Assets\Sprites\Architecture _ Environment\Area specfic architecture\Fog Canyon\Teacher_s Archives" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_Sprite.shader" />
      <None Include="Assets\TextMesh Pro\Examples &amp; Extras\Fonts\Bangers - OFL.txt" />

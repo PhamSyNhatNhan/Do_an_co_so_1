@@ -1,0 +1,487 @@
+fileFormatVersion: 2
+guid: 0adab9cd1916f9d469f6f72f64062afd
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1862171106406433637
+    second: Quake 2 Blast_quake_lvl_02_blast_010005_005_0
+  - first:
+      213: 1060842610650509658
+    second: Quake 2 Blast_quake_lvl_02_blast_010005_005_1
+  - first:
+      213: -5828317061895578909
+    second: Quake 2 Blast_quake_lvl_02_blast_010005_005_2
+  - first:
+      213: -4103599151817715066
+    second: Quake 2 Blast_quake_lvl_02_blast_010005_005_3
+  - first:
+      213: -6589111844692215295
+    second: Quake 2 Blast_quake_lvl_02_blast_010005_005_4
+  - first:
+      213: 6367801176239018104
+    second: Quake 2 Blast_quake_lvl_02_blast_010005_005_5
+  - first:
+      213: -723605648660999377
+    second: Quake 2 Blast_quake_lvl_02_blast_010005_005_6
+  - first:
+      213: 1951287296812644079
+    second: Quake 2 Blast_quake_lvl_02_blast_010005_005_7
+  - first:
+      213: 4623429414013795057
+    second: Quake 2 Blast_quake_lvl_02_blast_010005_005_8
+  - first:
+      213: 8950092071204596665
+    second: Quake 2 Blast_quake_lvl_02_blast_010005_005_9
+  - first:
+      213: 8914406070401042381
+    second: Quake 2 Blast_quake_lvl_02_blast_010005_005_10
+  - first:
+      213: 3838295242243053532
+    second: Quake 2 Blast_quake_lvl_02_blast_010005_005_11
+  - first:
+      213: 4645751029200746403
+    second: Quake 2 Blast_quake_lvl_02_blast_010005_005_12
+  - first:
+      213: -7548874984844639204
+    second: Quake 2 Blast_quake_lvl_02_blast_010005_005_13
+  - first:
+      213: 2952883051122204817
+    second: Quake 2 Blast_quake_lvl_02_blast_010005_005_14
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Quake 2 Blast_quake_lvl_02_blast_010005_005_0
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 57
+        width: 21
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5630a5c41c2c7d910800000000000000
+      internalID: 1862171106406433637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quake 2 Blast_quake_lvl_02_blast_010005_005_1
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 36
+        width: 36
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a51fb6adbbed8be00800000000000000
+      internalID: 1060842610650509658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quake 2 Blast_quake_lvl_02_blast_010005_005_2
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 49
+        width: 12
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ea9d5f0388ad1fa0800000000000000
+      internalID: -5828317061895578909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quake 2 Blast_quake_lvl_02_blast_010005_005_3
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 43
+        width: 35
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6829f4f20561d07c0800000000000000
+      internalID: -4103599151817715066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quake 2 Blast_quake_lvl_02_blast_010005_005_4
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 64
+        width: 21
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10a3dc710b5ce84a0800000000000000
+      internalID: -6589111844692215295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quake 2 Blast_quake_lvl_02_blast_010005_005_5
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 60
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8709a068e69fe5850800000000000000
+      internalID: 6367801176239018104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quake 2 Blast_quake_lvl_02_blast_010005_005_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 24
+        width: 27
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2358121f7c35f5f0800000000000000
+      internalID: -723605648660999377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quake 2 Blast_quake_lvl_02_blast_010005_005_7
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 17
+        width: 12
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe6ff35457d541b10800000000000000
+      internalID: 1951287296812644079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quake 2 Blast_quake_lvl_02_blast_010005_005_8
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 46
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1fa726a5e88b92040800000000000000
+      internalID: 4623429414013795057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quake 2 Blast_quake_lvl_02_blast_010005_005_9
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 21
+        width: 24
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9bba033b15d153c70800000000000000
+      internalID: 8950092071204596665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quake 2 Blast_quake_lvl_02_blast_010005_005_10
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 31
+        width: 12
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc707d9271556bb70800000000000000
+      internalID: 8914406070401042381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quake 2 Blast_quake_lvl_02_blast_010005_005_11
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 30
+        width: 36
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd718f8cf2d544530800000000000000
+      internalID: 3838295242243053532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quake 2 Blast_quake_lvl_02_blast_010005_005_12
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 47
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a77a6262f5097040800000000000000
+      internalID: 4645751029200746403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quake 2 Blast_quake_lvl_02_blast_010005_005_13
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 36
+        width: 21
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c14c08a62320d3790800000000000000
+      internalID: -7548874984844639204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quake 2 Blast_quake_lvl_02_blast_010005_005_14
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 25
+        width: 19
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 190296d6d7fbaf820800000000000000
+      internalID: 2952883051122204817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Quake 2 Blast_quake_lvl_02_blast_010005_005_0: 1862171106406433637
+      Quake 2 Blast_quake_lvl_02_blast_010005_005_1: 1060842610650509658
+      Quake 2 Blast_quake_lvl_02_blast_010005_005_10: 8914406070401042381
+      Quake 2 Blast_quake_lvl_02_blast_010005_005_11: 3838295242243053532
+      Quake 2 Blast_quake_lvl_02_blast_010005_005_12: 4645751029200746403
+      Quake 2 Blast_quake_lvl_02_blast_010005_005_13: -7548874984844639204
+      Quake 2 Blast_quake_lvl_02_blast_010005_005_14: 2952883051122204817
+      Quake 2 Blast_quake_lvl_02_blast_010005_005_2: -5828317061895578909
+      Quake 2 Blast_quake_lvl_02_blast_010005_005_3: -4103599151817715066
+      Quake 2 Blast_quake_lvl_02_blast_010005_005_4: -6589111844692215295
+      Quake 2 Blast_quake_lvl_02_blast_010005_005_5: 6367801176239018104
+      Quake 2 Blast_quake_lvl_02_blast_010005_005_6: -723605648660999377
+      Quake 2 Blast_quake_lvl_02_blast_010005_005_7: 1951287296812644079
+      Quake 2 Blast_quake_lvl_02_blast_010005_005_8: 4623429414013795057
+      Quake 2 Blast_quake_lvl_02_blast_010005_005_9: 8950092071204596665
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -11,7 +11,8 @@ public class SubWeapon : MonoBehaviour
     [SerializeField] private float throwForceX = 0.0f;
     [SerializeField] private float throwForceY = 5.0f;
     private bool isPickUp;
-
+    private Vector2 originalSize;
+    
     public bool IsPickUp
     {
         get => isPickUp;
@@ -23,8 +24,10 @@ public class SubWeapon : MonoBehaviour
         if(isPickUp) return;
         
         rb = GetComponent<Rigidbody2D>();
-        bc = GetComponent<BoxCollider2D>();
         Destroy(rb);
+
+        bc = GetComponent<BoxCollider2D>();
+        originalSize = bc.size;
         Destroy(bc);
         
         transform.parent = tf;
@@ -43,6 +46,8 @@ public class SubWeapon : MonoBehaviour
         if(!isPickUp) return;
         
         bc = gameObject.AddComponent<BoxCollider2D>();
+        bc.size = originalSize;
+        
         rb = gameObject.AddComponent<Rigidbody2D>();
         rb.transform.rotation = Quaternion.identity;
         

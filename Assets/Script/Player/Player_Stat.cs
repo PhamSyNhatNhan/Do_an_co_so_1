@@ -79,4 +79,18 @@ public class Player_Stat : MonoBehaviour
         get => dashCD;
         set => dashCD = value;
     }
+
+    public void SetJumpForce(float jumpForceChange)
+    {
+        jumpForce = jumpForceChange;
+    }
+    public void SetAmountJump(int amountJumpChange)
+    {
+        amountJump = amountJumpChange;
+    }
+    public void SetJumpvar(float jumpvarChange)
+    {
+        Jumpvar = jumpvarChange;
+    }
+    
 }

@@ -1,0 +1,417 @@
+fileFormatVersion: 2
+guid: 7e337145c08ce2a448b18b9885c9ecf9
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3346160278391476144
+    second: TheOnlyThingIKnowForRealSpin_0
+  - first:
+      213: -7066263443942086779
+    second: TheOnlyThingIKnowForRealSpin_1
+  - first:
+      213: 4661094103268989112
+    second: TheOnlyThingIKnowForRealSpin_2
+  - first:
+      213: 2439337519888843345
+    second: TheOnlyThingIKnowForRealSpin_3
+  - first:
+      213: -6352478731172044392
+    second: TheOnlyThingIKnowForRealSpin_4
+  - first:
+      213: -3918281658971473379
+    second: TheOnlyThingIKnowForRealSpin_5
+  - first:
+      213: -1853692660157175068
+    second: TheOnlyThingIKnowForRealSpin_6
+  - first:
+      213: -1268228020606267678
+    second: TheOnlyThingIKnowForRealSpin_7
+  - first:
+      213: 1623721024610749676
+    second: TheOnlyThingIKnowForRealSpin_8
+  - first:
+      213: -8021710334343370094
+    second: TheOnlyThingIKnowForRealSpin_9
+  - first:
+      213: -7154541254578885350
+    second: TheOnlyThingIKnowForRealSpin_10
+  - first:
+      213: -3082238705342786722
+    second: TheOnlyThingIKnowForRealSpin_11
+  - first:
+      213: 8657791017451248188
+    second: TheOnlyThingIKnowForRealSpin_12
+  - first:
+      213: -5389605247208151247
+    second: TheOnlyThingIKnowForRealSpin_13
+  - first:
+      213: 4843734060185980694
+    second: TheOnlyThingIKnowForRealSpin_14
+  - first:
+      213: -8361668156649748886
+    second: TheOnlyThingIKnowForRealSpin_15
+  - first:
+      213: -3293961901416640973
+    second: TheOnlyThingIKnowForRealSpin_16
+  - first:
+      213: 541668053196550725
+    second: TheOnlyThingIKnowForRealSpin_17
+  - first:
+      213: -5042847351784927002
+    second: TheOnlyThingIKnowForRealSpin_18
+  - first:
+      213: -5762020842184054957
+    second: TheOnlyThingIKnowForRealSpin_19
+  - first:
+      213: 8011298694662931747
+    second: TheOnlyThingIKnowForRealSpin_20
+  - first:
+      213: 6974234148787962631
+    second: TheOnlyThingIKnowForRealSpin_21
+  - first:
+      213: 3315849676074501131
+    second: TheOnlyThingIKnowForRealSpin_22
+  - first:
+      213: 9299499412532763
+    second: TheOnlyThingIKnowForRealSpin_23
+  - first:
+      213: -1667612254178321068
+    second: TheOnlyThingIKnowForRealSpin_24
+  - first:
+      213: 5510917880235662170
+    second: TheOnlyThingIKnowForRealSpin_25
+  - first:
+      213: 8142922732774401631
+    second: TheOnlyThingIKnowForRealSpin_26
+  - first:
+      213: 1136266612240910074
+    second: TheOnlyThingIKnowForRealSpin_27
+  - first:
+      213: -374469190869645035
+    second: TheOnlyThingIKnowForRealSpin_28
+  - first:
+      213: 5377771061771731618
+    second: TheOnlyThingIKnowForRealSpin_29
+  - first:
+      213: 7954202119345304468
+    second: TheOnlyThingIKnowForRealSpin_30
+  - first:
+      213: 8248540606206808713
+    second: TheOnlyThingIKnowForRealSpin_31
+  - first:
+      213: -5943520806284991088
+    second: TheOnlyThingIKnowForRealSpin_32
+  - first:
+      213: -4294685879250852899
+    second: TheOnlyThingIKnowForRealSpin_33
+  - first:
+      213: -6845297447837723267
+    second: TheOnlyThingIKnowForRealSpin_34
+  - first:
+      213: 7509283813224501450
+    second: TheOnlyThingIKnowForRealSpin_35
+  - first:
+      213: -7673875242250993385
+    second: TheOnlyThingIKnowForRealSpin_36
+  - first:
+      213: -8221077532637395178
+    second: TheOnlyThingIKnowForRealSpin_37
+  - first:
+      213: -8429217029628760478
+    second: TheOnlyThingIKnowForRealSpin_38
+  - first:
+      213: 5013481734280320808
+    second: TheOnlyThingIKnowForRealSpin_39
+  - first:
+      213: 6419515791734513247
+    second: TheOnlyThingIKnowForRealSpin_40
+  - first:
+      213: 3215571543161326924
+    second: TheOnlyThingIKnowForRealSpin_41
+  - first:
+      213: 205648336966431446
+    second: TheOnlyThingIKnowForRealSpin_42
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: TheOnlyThingIKnowForRealSpin_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1400
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0bfcb036b03ff6e20800000000000000
+      internalID: 3346160278391476144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TheOnlyThingIKnowForRealSpin_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1200
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 587e08e16d69fed90800000000000000
+      internalID: -7066263443942086779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TheOnlyThingIKnowForRealSpin_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1000
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b8140234688fa040800000000000000
+      internalID: 4661094103268989112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TheOnlyThingIKnowForRealSpin_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 800
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 152c148dc844ad120800000000000000
+      internalID: 2439337519888843345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TheOnlyThingIKnowForRealSpin_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 600
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8912449304677d7a0800000000000000
+      internalID: -6352478731172044392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TheOnlyThingIKnowForRealSpin_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 400
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1ab31357977f99c0800000000000000
+      internalID: -3918281658971473379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TheOnlyThingIKnowForRealSpin_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 200
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ea259cc85c5646e0800000000000000
+      internalID: -1853692660157175068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TheOnlyThingIKnowForRealSpin_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ee0199a559566ee0800000000000000
+      internalID: -1268228020606267678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      TheOnlyThingIKnowForRealSpin_0: 3346160278391476144
+      TheOnlyThingIKnowForRealSpin_1: -7066263443942086779
+      TheOnlyThingIKnowForRealSpin_2: 4661094103268989112
+      TheOnlyThingIKnowForRealSpin_3: 2439337519888843345
+      TheOnlyThingIKnowForRealSpin_4: -6352478731172044392
+      TheOnlyThingIKnowForRealSpin_5: -3918281658971473379
+      TheOnlyThingIKnowForRealSpin_6: -1853692660157175068
+      TheOnlyThingIKnowForRealSpin_7: -1268228020606267678
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -9,6 +9,7 @@ public class NewBehaviourScript : MonoBehaviour
     private Rigidbody2D rb;
     private Player_Stat ps;
     private Animator amt;
+    private bool CanInput = true;
     
     [Header("Movement")]
     private float InputDirect;
@@ -166,6 +167,8 @@ public class NewBehaviourScript : MonoBehaviour
 
     private void CheckInput()
     {
+        if(!CanInput) return;
+        
         InputDirect = Input.GetAxisRaw("Horizontal");
         VerticalDirect = Input.GetAxisRaw("Vertical");
 
@@ -255,7 +258,6 @@ public class NewBehaviourScript : MonoBehaviour
             }
         }
     }
-    
 
     private void Jump()
     {
@@ -298,7 +300,7 @@ public class NewBehaviourScript : MonoBehaviour
     private void Movement()
     {
         if (IsDash) return;
-        if (IsGrounded)
+        if (IsGrounded && CanRun)
         {
             rb.velocity = new Vector2 (ps.MoveSpeed * InputDirect, rb.velocity.y);
         }
@@ -361,5 +363,50 @@ public class NewBehaviourScript : MonoBehaviour
     public bool GetIsDash()
     {
         return IsDash;
+    }
+
+    public bool getIsGrounded()
+    {
+        return IsGrounded;
+    }
+
+    public Rigidbody2D GetRb()
+    {
+        return rb;
+    }
+
+    public void EnableInput()
+    {
+        CanInput = true;
+    }
+
+    public void DisableInput()
+    {
+        CanInput = false;
+    }
+
+    public float GetFlipDirect()
+    {
+        return FlipDirect;
+    }
+
+    public void GetFlipping()
+    {
+        Fliping();
+    }
+
+    public void EnableCanRun()
+    {
+        CanRun = true;
+    }
+
+    public void DisableCanRun()
+    {
+        CanRun = false;
+    }
+    
+    public bool GetIsTouchWall()
+    {
+        return IsTouchWall;
     }
 }
