@@ -22,11 +22,11 @@ public class AmiyaCut : MonoBehaviour
 
         if (amiya.GetIsBurst())
         {
-            AttackDetail[0] = amiya.GetAttackDamage() + amiya.GetAttackDamageBonus();
+            AttackDetail[0] = amiya.GetAmiyaCutDamage() + amiya.GetAttackDamageBonus();
         }
         else
         {
-            AttackDetail[0] = amiya.GetAttackDamage();
+            AttackDetail[0] = amiya.GetAmiyaCutDamage();
         }
         AttackDetail[1] = GameObject.Find("Player").transform.position.x; 
         AttackDetail[2] = amiya.GetKnockBack();

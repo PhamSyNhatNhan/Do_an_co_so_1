@@ -409,4 +409,14 @@ public class NewBehaviourScript : MonoBehaviour
     {
         return IsTouchWall;
     }
+
+    public Animator GetAnimator()
+    {
+        return amt;
+    }
+
+    public CapsuleCollider2D GetCapsuleCollider()
+    {
+        return GetComponent<CapsuleCollider2D>();
+    }
 }

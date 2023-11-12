@@ -30,6 +30,7 @@ public class Animya : SubWeapon
 
     [Header("Enchance")] 
     [SerializeField] private int maxStack;
+    [SerializeField] private float AmiyaCutDamage;
     private bool canEnchance = true;
     private int curStack = 0;
     private bool isEnchanceAttack = false;
@@ -681,5 +682,10 @@ public class Animya : SubWeapon
     public float getBurstBaseDamage()
     {
         return burstBaseDamage;
+    }
+
+    public float GetAmiyaCutDamage()
+    {
+        return AmiyaCutDamage;
     }
 }

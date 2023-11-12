@@ -7,25 +7,33 @@ public class Player_Stat : MonoBehaviour
 {
     [Header("Move")] 
     [SerializeField] private float moveSpeed = 20.0f;
-
     [FormerlySerializedAs("JumpForce")]
+    
     [Header("Jump")]
     [SerializeField] private float jumpForce = 15.0f;
     [SerializeField] private int amountJump = 2;
     [SerializeField] private float jumpvar;
-    
     [FormerlySerializedAs("Airforce")]
+    
     [Header("Air")]
     [SerializeField] private float airForce;
     [SerializeField] private float airDrag;
-
     [FormerlySerializedAs("DashTime")]
+    
     [Header("Dash")]
     [SerializeField] private float dashTime;
     [SerializeField] private float dashSpeed;
     [SerializeField] private float dashCD;
 
+    [Header("Stat")]
+    [SerializeField] private float maxHealth = 5;
+    private float curentHealth;
 
+    private void Start()
+    {
+        curentHealth = maxHealth;
+    }
+    
     public float MoveSpeed
     {
         get => moveSpeed;
@@ -92,5 +100,16 @@ public class Player_Stat : MonoBehaviour
     {
         Jumpvar = jumpvarChange;
     }
-    
+
+    public float CurentHealth
+    {
+        get => curentHealth;
+        set => curentHealth = value;
+    }
+
+    public float MaxHealth
+    {
+        get => maxHealth;
+        set => maxHealth = value;
+    }
 }

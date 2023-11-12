@@ -16,6 +16,7 @@ public class MagicStaff : SubWeapon
     private float[] AttackDetail = new float[3];
     [SerializeField] private LayerMask WhatIsDamageEnable;
     private float rotationAngle;
+    [SerializeField] private float delayTime;
 
     [Header("Projectile")]
     [SerializeField] private GameObject projectilePrefab;
@@ -68,6 +69,15 @@ public class MagicStaff : SubWeapon
             amt.SetBool("IsAttack", true);
             Vector3 mousePosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
             mousePosition.z = 0f;
+            
+            if (pc.transform.position.x < mousePosition.x && pc.GetFlipDirect() < 0.0f)
+            {
+                pc.GetFlipping();
+            }
+            else if (pc.transform.position.x > mousePosition.x && pc.GetFlipDirect() > 0.0f)
+            {
+                pc.GetFlipping();
+            }
 
             Vector2 shootDirection = (mousePosition - transform.position).normalized;
 
@@ -81,7 +91,7 @@ public class MagicStaff : SubWeapon
 
             transform.rotation = Quaternion.Euler(0f, 0f, rotationAngle);
 
-            StartCoroutine(ResetCanAttack(1.0f)); // Đặt lại CanAttack sau 1 giây
+            StartCoroutine(ResetCanAttack(delayTime)); // Đặt lại CanAttack sau x giây
         }
     }
 

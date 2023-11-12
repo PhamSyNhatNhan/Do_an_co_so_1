@@ -46,7 +46,7 @@ public class Enemy_1_Controller : MonoBehaviour
     [SerializeField] private LayerMask WhatIsPlayer;
     private Vector2 CollisionDamageBL;
     private Vector2 CollisionDamageTR;
-    private float[] attackDerails = new float[2];
+    private float[] attackDerails = new float[3];
     [SerializeField] private Transform CollisionDamgeCheck; 
     
     
@@ -160,7 +160,7 @@ public class Enemy_1_Controller : MonoBehaviour
 
         if (curHealth > 0.0f)
         {
-            KnockBack();
+            KnockBack(atkDetails[2]);
         }
         else if (curHealth <= 0.0f)
         {
@@ -181,17 +181,18 @@ public class Enemy_1_Controller : MonoBehaviour
                 lastCollisionDamageTime = Time.time;
                 attackDerails[0] = CollisionDamage;
                 attackDerails[1] = transform.position.x;
+                attackDerails[2] = 1;
                 hit.SendMessage("Damage", attackDerails);
             }
         }
     }
 
-    private void KnockBack()
+    private void KnockBack(float knockbackforce)
     {
         KnockBackStart = Time.time;
         IsKnockBack = true;
         KnockBackStart = Time.time;
-        rb.velocity = new Vector2(KnockBackVector.x * damageDirect, KnockBackVector.y);
+        rb.velocity = new Vector2(KnockBackVector.x * knockbackforce * damageDirect, KnockBackVector.y);
     }
 
     private void ReloadKnockBack()
@@ -223,5 +224,10 @@ public class Enemy_1_Controller : MonoBehaviour
         Gizmos.DrawLine(br, tr);
         Gizmos.DrawLine(tr, tl);
         Gizmos.DrawLine(tl, bl);
+    }
+
+    public float GetCurrentHealth()
+    {
+        return curHealth;
     }
 }
