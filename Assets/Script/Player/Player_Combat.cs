@@ -70,6 +70,7 @@ public class Player_Combat_ : MonoBehaviour
         if (checkPoint.Count != 0)
         {
             ps.CurentHealth = ps.MaxHealth;
+            lm.ModifyLife();
             Instantiate(checkPointBlink, transform);
             curCheckPoint = checkPoint[0].transform;
         }

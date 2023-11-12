@@ -291,6 +291,11 @@ public class Animya : SubWeapon
                 }
                 
                 GameObject instance = (GameObject)Instantiate(enchanceEffect, firstEnemyPosition, pc.transform.rotation);
+                
+                if (isBurst)
+                {
+                    instance.transform.localScale = new Vector3(2f, 2f, 2f);
+                }
             }
             else if (Enemy.Count == 0)
             {
@@ -308,6 +313,11 @@ public class Animya : SubWeapon
                 Vector3 EnemyPosition = new Vector3(randomX, PositionY, transform.position.z);
                     
                 GameObject instance = (GameObject)Instantiate(enchanceEffect, EnemyPosition, pc.transform.rotation);
+
+                if (isBurst)
+                {
+                    instance.transform.localScale = new Vector3(2f, 2f, 2f);
+                }
             }
 
             subEnchaneAttack();

@@ -325,6 +325,6 @@ MonoBehaviour:
   WhatIsDamageEnable:
     serializedVersion: 2
     m_Bits: 512
-  delayTime: 0.5
+  delayTime: 0.4
   projectilePrefab: {fileID: 700129739646918792}
   speed: 30

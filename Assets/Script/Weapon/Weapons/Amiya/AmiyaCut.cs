@@ -18,8 +18,12 @@ public class AmiyaCut : MonoBehaviour
 
     private void EnchanceCut()
     {
+        if (amiya.GetIsBurst())
+        {
+            AtackRadius *= 1.5f;
+        }
         Collider2D[] DetectObject = Physics2D.OverlapCircleAll(AttackHitBox.position, AtackRadius, WhatIsDamgeEnable);
-
+        
         if (amiya.GetIsBurst())
         {
             AttackDetail[0] = amiya.GetAmiyaCutDamage() + amiya.GetAttackDamageBonus();
